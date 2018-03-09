@@ -1,0 +1,49 @@
+$card-colour: #fff787;
+$text-colour: #442a08;
+.book-card {
+  height: 15rem;;
+  width: auto;
+
+  font-family: 'Mina', sans-serif;
+  text-color: $text-colour;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $card-colour;
+  border: 10px solid $text-colour;
+
+  .title {
+    display: box;
+    font-weight: 900;
+    font-size: 5rem;
+  }
+
+  .author {
+    font-weight: 500;
+    font-size: 2.5rem;
+  }
+
+  .pages {
+    font-weight: 500;
+    font-size: 2.5rem;
+  }
+
+  .circle {
+    height: 2rem;
+    width: 2rem;
+    -webkit-border-radius: 50%; 
+       -moz-border-radius: 50%; 
+        -moz-border-radius: 50%; 
+  }
+
+  .have-read {
+    background-color: green;
+  }
+
+  .have-not-read {
+    background-color: red;
+  }
+
+}

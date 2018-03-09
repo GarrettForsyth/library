@@ -1,0 +1,82 @@
+@import 'book-card';
+$background-color: #871218;
+$input-text-colour: #fcae5f;
+
+
+.container {
+  margin: auto;
+  max-width: 1080px;
+}
+
+.main-title {
+  margin: 20px auto;
+  width: 100%;
+  
+  font-family: 'Mina', sans-serif;
+  display: box;
+  font-weight: 900;
+  font-size: 5rem;
+  text-align: center;
+  color: $card-colour;
+}
+
+body {
+  background-color: $background-color;
+}
+
+.new-book {
+  width: 60%;
+  margin: 10px auto;
+  padding: 5px;
+  border: 10px solid $text-colour;
+}
+
+
+input, .button {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  display: block;
+  color: $text-colour; 
+  background-color: $card-colour;
+  border: 3px solid $text-colour;
+
+  font-family: 'Mina', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+input, select, text {
+  color: rgba(68, 42, 8, 0.8); 
+}
+
+#have-read-checkbox {
+  margin-top: 10px;
+  margin-left: 5px;
+  display: inline;
+  height: 2rem;
+  width: 2rem;
+}
+
+
+
+label {
+  padding-top: 0px;
+  color: $card-colour; 
+  background-color: $background-color;
+
+  font-family: 'Mina', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+
+.button:active {
+  border-color: #f4426e;
+}
+
+.hide {
+  display: none;
+}
